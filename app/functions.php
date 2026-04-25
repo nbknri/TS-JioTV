@@ -11,7 +11,7 @@ $PROXY = $config['settings']['proxy'] ?? null;
 // Constants
 define('DATA_FOLDER', 'assets/data');
 define('TOKEN_EXPIRY_TIME', 7000);
-define('COOKIE_EXPIRY_TIME', 40000);
+define('COOKIE_EXPIRY_TIME', 300);
 
 // Determine protocol
 $protocol = isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https://' : 'http://';
